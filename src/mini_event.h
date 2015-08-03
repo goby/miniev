@@ -30,6 +30,8 @@ extern "C" {
 /* Avoid warning */
 #define MINI_NOTUSED(V) ((void) V)
 
+#include <time.h>
+
 /* The main struct in the loop */
 struct event_loop;
 
